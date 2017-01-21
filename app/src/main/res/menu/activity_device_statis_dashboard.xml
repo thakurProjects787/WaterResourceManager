@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/upper_limit_chart"
+        android:title="Adjust Upper Limit"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/lower_limit_chart"
+        android:title="Adjust Lower Limit"
+        android:orderInCategory="100"/>
+
+    <group android:checkableBehavior="all">
+        <item android:id="@+id/current_level_chk"
+            android:title="Current Level" android:checked="true"/>
+        <item android:id="@+id/total_inlet_chk"
+            android:title="Total Inlet" android:checked="true"/>
+        <item android:id="@+id/total_outlet_chk"
+            android:title="Total Outlet" android:checked="true"/>
+        <item android:id="@+id/outlet_to_other_chk"
+            android:title="Outlet to Others" android:checked="true"/>
+        <item android:id="@+id/inlet_status_chk"
+            android:title="Inlet Status" android:checked="true"/>
+        <item android:id="@+id/outlet_status_chk"
+            android:title="Outlet Status" android:checked="true"/>
+        <item android:id="@+id/water_quality_chk"
+            android:title="Water Quality" android:checked="true"/>
+        <item android:id="@+id/action_chk"
+            android:title="Action" android:checked="true"/>
+    </group>
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/base_dashboard_total_water"
+        android:orderInCategory="100"
+        android:title="Total Level"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/base_dashboard_water_quality"
+        android:orderInCategory="100"
+        android:title="Water Quality"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/base_dashboard_water_resources"
+        android:orderInCategory="100"
+        android:title="Water Resources"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/base_dashboard_water_storage"
+        android:orderInCategory="100"
+        android:title="Water Storage"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/base_dashboard_water_used"
+        android:orderInCategory="100"
+        android:title="Water Usages"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/base_dashboard_statistics"
+        android:orderInCategory="100"
+        android:title="Statistics"
+        app:showAsAction="never" />
+
+</menu>

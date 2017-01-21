@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- User Header Layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_r"
+        android:id="@+id/userInfo">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:text="NAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/userNameTV"
+                android:textColor="@color/accent"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:text="SCOPE : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTY"
+                android:layout_weight="0.0"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="NORMAL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scopeTV"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:fontFamily="serif" />
+
+        </LinearLayout>
+
+
+         <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp">
+
+           <TextView
+               android:text="MOBILE NO : "
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textViewN"
+               android:layout_weight="0.0"
+               android:textSize="16sp"
+               android:fontFamily="sans-serif-condensed"
+               android:textStyle="normal|bold" />
+
+           <TextView
+               android:text="213213"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/mobileTV"
+               android:layout_weight="1"
+               android:layout_marginLeft="5dp"
+               android:textSize="16sp"
+               android:fontFamily="serif" />
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:text="ADMIN : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="0.0"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="asdsa@asd.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminTV"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

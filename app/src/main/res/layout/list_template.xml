@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:elevation="3dp"
+        android:weightSum="1"
+        android:layout_weight="0.02"
+        android:background="@android:color/holo_green_dark">
+
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/ic_media_route_connecting_01_dark"
+            android:id="@+id/imageView4" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/accent"
+                android:text="A12345678"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_weight="0.00"
+                android:text="160457" />
+
+
+
+           <TextView
+               android:id="@+id/tags"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="374747;3637;16363;himachal pradesh;Supplier;ADSAD;ASDSADSA;ASDSADSA;"
+               android:fontFamily="sans-serif-condensed"/>
+
+
+
+           <TextView
+               android:id="@+id/write_key"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="RHRZYLTPNY4NOWG6" />
+
+           <TextView
+               android:id="@+id/read_key"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="RHRZYLTPNY4NOWG6" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    -->
+
+    <!-- User Header Layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_b"
+        android:id="@+id/deviceInfo">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color">
+
+            <TextView
+                android:text="DEVICE NAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/deviceNameTV"
+                android:textColor="@color/accent"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+
+        <!--
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:text="TYPE : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="0.0"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/devicetypeTV"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textSize="16sp" />
+        </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+
+            <!--
+            <TextView
+                android:text="TAGS :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewDN"
+                android:layout_weight="0.0"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal|bold" />
+                -->
+
+            <TextView
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/devicetagsTV"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!--
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:text="TOTAL ENTRY : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalentryTY"
+                android:layout_weight="0.0"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="NORMAL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/typeTV"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:fontFamily="serif" />
+
+        </LinearLayout>
+        -->
+
+    </LinearLayout>
+
+</LinearLayout>

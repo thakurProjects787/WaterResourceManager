@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_server_update_main_channel"
+            android:title="Update MAIN" />
+        <item
+            android:id="@+id/main_server_all_devices"
+            android:title="All Devices"/>
+        <item
+            android:id="@+id/main_server_all_users"
+            android:title="All Users" />
+        <item
+            android:id="@+id/main_server_clear_device_data"
+            android:title="Clear All DEVICE Data" />
+    </group>
+
+    <item android:title="ADD REQUESTS">
+        <menu>
+            <item
+                android:id="@+id/main_server_process_add_request"
+                android:title="Process ADD Requests" />
+            <item
+                android:id="@+id/main_server_clear_add_request"
+                android:title="Clear ADD Requests" />
+        </menu>
+    </item>
+
+    <item android:title="DELETE REQUESTS">
+        <menu>
+            <item
+                android:id="@+id/main_server_process_delete_request"
+                android:title="Process DELETE Requests" />
+            <item
+                android:id="@+id/main_server_clear_delete_request"
+                android:title="Clear DELETE Requests" />
+        </menu>
+    </item>
+
+    <item android:title="RESET">
+        <menu>
+            <item
+                android:id="@+id/main_server_clear_cloud"
+                android:title="Clear Complete Cloud" />
+        </menu>
+    </item>
+
+
+
+</menu>

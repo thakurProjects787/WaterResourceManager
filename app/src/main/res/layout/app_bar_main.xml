@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.thakurprojects.waterresourcemanager.MainActivity">
+
+    <!--
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:layout_marginTop="45dp"
+        android:id="@+id/main_container_layout">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:id="@+id/dashboard_layout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/device_layout">
+
+                <TextView
+                    android:text="Connected Devices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/heading_1"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/oil"
+                    android:textStyle="normal|bold" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/device_layout_2"
+                    android:background="@android:color/holo_green_light">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_marginRight="150dp"
+                        app:srcCompat="@mipmap/ic_lightbulb_outline_white_48dp"
+                        android:id="@+id/imageView2"
+                        android:layout_weight="0.48" />
+
+                    <TextView
+                        android:text="002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/connected_devices_textview"
+                        android:layout_weight="1"
+                        android:textColor="@color/oil"
+                        android:textSize="45sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/water_status_layout">
+
+                <TextView
+                    android:text="Water Capacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/heading_2"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/oil"
+                    android:textStyle="normal|bold" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/water_layout_2"
+                    android:background="@android:color/holo_blue_light">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_marginRight="150dp"
+                        app:srcCompat="@mipmap/ic_invert_colors_white_48dp"
+                        android:id="@+id/waterdrop_img"
+                        android:layout_weight="0.48" />
+
+                    <TextView
+                        android:text="5203"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/water_details_textview"
+                        android:layout_weight="1"
+                        android:textColor="@color/oil"
+                        android:textSize="40sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    -->
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:expanded="false">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

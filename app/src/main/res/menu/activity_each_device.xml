@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/each_device_refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/each_device_dashboard"
+        android:orderInCategory="100"
+        android:title="Dashboard"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/each_device_action"
+        android:orderInCategory="100"
+        android:title="Action"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/each_device_map_view"
+        android:orderInCategory="100"
+        android:title="Map View"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/each_device_update"
+        android:orderInCategory="100"
+        android:title="Update Device"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/each_device_contact"
+        android:orderInCategory="100"
+        android:title="Contact Owner"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/each_device_delete"
+        android:orderInCategory="100"
+        android:title="Delete Device"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_dashboard"
+            android:icon="@mipmap/ic_dashboard_black_24dp"
+            android:title="My Dashboard"/>
+        <item
+            android:id="@+id/show_my_devices"
+            android:icon="@mipmap/ic_show_all_24dp"
+            android:title="My Devices" />
+        <item
+            android:id="@+id/add_new_device"
+            android:icon="@mipmap/ic_add_devices_24dp"
+            android:title="Add New Device" />
+        <!--
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+            -->
+    </group>
+
+    <item android:title="Overall Details">
+        <menu>
+            <item
+                android:id="@+id/country_dashboard"
+                android:icon="@mipmap/ic_dashboard_black_24dp"
+                android:title="All States"/>
+            <item
+                android:id="@+id/district_dashboard"
+                android:icon="@mipmap/ic_dashboard_black_24dp"
+                android:title="All Districts"/>
+            <item
+                android:id="@+id/devices_dashboard"
+                android:icon="@mipmap/ic_dashboard_black_24dp"
+                android:title="All Devices"/>
+            <item
+                android:id="@+id/devices_details_dashboard"
+                android:icon="@mipmap/ic_dashboard_black_24dp"
+                android:title="Devices Details"/>
+
+        </menu>
+    </item>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/add_user"
+                android:icon="@mipmap/ic_group_add_black_24dp"
+                android:title="Add New User" />
+            <item
+                android:id="@+id/show_users"
+                android:icon="@mipmap/ic_group_black_24dp"
+                android:title="Show All Users" />
+        </menu>
+    </item>
+
+    <!--
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Report" />
+        </menu>
+    </item>
+    -->
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_device_statis_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.thakurprojects.waterresourcemanager.DeviceStatisDashboardActivity"
+    tools:showIn="@layout/activity_device_statis_dashboard">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deviceheadingStatisticTextView"
+            android:textStyle="normal|bold"
+            android:layout_marginLeft="8dp"
+            android:textSize="24sp"
+            android:lineSpacingExtra="10sp"
+            android:textColor="@android:color/holo_red_light"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:text="Some Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/deviceinforstatisticTextView"
+            android:fontFamily="monospace" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/device_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
